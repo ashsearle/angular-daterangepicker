@@ -30,6 +30,7 @@ module.exports = (grunt) ->
 
     wiredep:
       target:
+        devDependencies: true
         src: [
           './example.html'
         ]

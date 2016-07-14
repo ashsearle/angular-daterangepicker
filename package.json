@@ -31,6 +31,7 @@
   "scripts": {
     "build": "grunt",
     "develop": "grunt develop",
+    "update-example": "bower install && grunt wiredep",
     "prepublish": "grunt dist"
   },
   "npmName": "angular-daterangepicker",
